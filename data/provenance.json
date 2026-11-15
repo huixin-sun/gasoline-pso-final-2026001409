@@ -1,0 +1,22 @@
+{
+  "sources": [
+    {
+      "name": "附件一：325个样本数据.xlsx",
+      "sha256": "20e700f99ad1ffb8fd59989e84ce5cda4a186a9cc7829102b3290aad9a791c80"
+    },
+    {
+      "name": "附件四：354个操作变量信息.xlsx",
+      "sha256": "41d671747d6afa653b062fc96d15fbd784e3f3303f37dcd1bde2ea34e281fd8b"
+    }
+  ],
+  "rows": 325,
+  "fixed_columns": [
+    "feed_sulfur",
+    "feed_ron",
+    "feed_saturates",
+    "feed_density"
+  ],
+  "selected_controls": 23,
+  "selection": "Paper Table 5.3; choose TXE_3201A for ambiguous EH-103 label because its 300-550 range matches Table 8.1; no feature selection on holdout. Feed/clean-air bounds follow attachment by tag, correcting swapped paper Table 8.1 ranges.",
+  "extraction": "Original Sheet1 rows 4:328. Product RON column K; sulfur J. Four fixed features C,D,E,I."
+}

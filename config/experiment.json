@@ -1,0 +1,22 @@
+{
+  "seed": 20261114,
+  "train_size": 260,
+  "validation_size": 52,
+  "hidden": 50,
+  "model_seeds": [11, 23, 47],
+  "epochs": 1500,
+  "population": 128,
+  "iterations": 120,
+  "w": 0.8,
+  "c1": 0.5,
+  "c2": 0.5,
+  "vmax": 0.2,
+  "benchmark_populations": [32, 128, 300],
+  "benchmark_iterations": 20,
+  "benchmark_repeats": 5,
+  "quality_seeds": 20,
+  "quality_samples": 5,
+  "quality_population": 96,
+  "quality_iterations": 80,
+  "bounds": "training min/max intersected with physical bounds; full physical bounds sensitivity only"
+}
