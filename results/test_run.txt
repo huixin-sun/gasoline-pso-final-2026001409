@@ -1,0 +1,16 @@
+test_boundary_optimum (test_core.CoreTests.test_boundary_optimum) ... ok
+test_dataset_mapping (test_core.CoreTests.test_dataset_mapping) ... ok
+test_invalid_bounds_and_nan (test_core.CoreTests.test_invalid_bounds_and_nan) ... ok
+test_loop_vector_same_randomness (test_core.CoreTests.test_loop_vector_same_randomness) ... ok
+test_mlp_forward_scalar_reference (test_core.CoreTests.test_mlp_forward_scalar_reference) ... ok
+test_model_learns_and_serializes (test_core.CoreTests.test_model_learns_and_serializes) ... ok
+test_objective_constraints (test_core.CoreTests.test_objective_constraints) ... ok
+test_random_search_budget_and_bounds (test_core.CoreTests.test_random_search_budget_and_bounds) ... ok
+test_ridge_known_linear_relation (test_core.CoreTests.test_ridge_known_linear_relation) ... ok
+test_sphere_accuracy_and_monotonicity (test_core.CoreTests.test_sphere_accuracy_and_monotonicity) ... ok
+test_zero_iterations_initial_candidate (test_core.CoreTests.test_zero_iterations_initial_candidate) ... ok
+
+----------------------------------------------------------------------
+Ran 11 tests in 0.711s
+
+OK

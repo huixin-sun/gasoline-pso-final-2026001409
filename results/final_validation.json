@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "application_rows": 325,
+  "holdout_rows": 65,
+  "paired_quality_runs": 100,
+  "max_recomputed_prediction_error": 0,
+  "pdf_pages": {
+    "report.pdf": 8,
+    "slides.pdf": 11
+  },
+  "core_tests": "11 passed; see test_run.txt"
+}
