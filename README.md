@@ -6,7 +6,7 @@ NumPy 向量化实现、性能比较与代理模型可靠性分析。
 **成员：** 孙慧鑫，学号 2026001409。经本人说明，本项目单人成组。  
 **分工：** 项目按单人项目提交，数据核对、算法实现、实验与分析、工程整理和展示均由提交人负责；AI 辅助范围见下文。  
 **仓库：** https://github.com/huixin-sun/gasoline-pso-final-2026001409 （发布状态见 `SUBMISSION.json`）。  
-**最终提交 commit ID：** 见包根目录 `FINAL_COMMIT.txt`；在 Git 仓库运行 `git rev-parse final-submission` 可核对最终提交。该记录在提交对象产生后随压缩包写入，避免在提交中自引用自己的 SHA。代码文件应与该提交一致。
+**最终代码及报告版本 commit ID：** `b4b968a38c8e169baa1af580ef498144ac287c59`。包根目录 `FINAL_COMMIT.txt` 记录同一版本；其后的提交仅补充 README、发布状态与提交记录，核心源码、数据、权重、图表和 PDF 均与该版本一致。
 
 ## 项目与主要结论
 
