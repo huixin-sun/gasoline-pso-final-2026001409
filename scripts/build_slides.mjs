@@ -25,7 +25,7 @@ export async function populate(presentation, root) {
       item.body.forEach((line,j)=>text(slide,line,64,155+j*112,1152,96,28));
     }
     text(slide,`孙慧鑫 2026001409    ${i+1} / ${data.length}`,64,680,1152,24,17,'#718394');
-    slide.speakerNotes.text=item.notes+'\n来源：给定论文第5—8章、附件一与附件四；实验数据见 results/*.csv，配置见 config/experiment.json。';
+    slide.speakerNotes.text=item.notes+'\n数据来源：附件一与附件四；方法参考资料见报告末尾；实验数据见 results/*.csv，配置见 config/experiment.json。';
   }
   return data.length;
 }

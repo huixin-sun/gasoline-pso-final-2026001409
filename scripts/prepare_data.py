@@ -1,4 +1,4 @@
-"""Extract paper Table 5.3 variables by instrument tag, never ambiguous offsets."""
+"""Extract the fixed feature configuration by instrument tag, avoiding ambiguous offsets."""
 import argparse,csv,json,hashlib
 from pathlib import Path
 import openpyxl
@@ -41,7 +41,7 @@ def main():
  (dest/'variables.json').write_text(json.dumps(dictionary,ensure_ascii=False,indent=2),encoding='utf-8')
  sources=[{'name':Path(a).name,'sha256':hashlib.sha256(Path(a).read_bytes()).hexdigest()} for a in [args.samples,args.variables]]
  (dest/'provenance.json').write_text(json.dumps({'sources':sources,'rows':325,'fixed_columns':fixed,'selected_controls':23,
- 'selection':'Paper Table 5.3; choose TXE_3201A for ambiguous EH-103 label because its 300-550 range matches Table 8.1; no feature selection on holdout. Feed/clean-air bounds follow attachment by tag, correcting swapped paper Table 8.1 ranges.',
+ 'selection':'Fixed feature configuration; methodological attribution is listed in the project references. EH-103 uses TXE_3201A with range 300-550. No feature selection on holdout. All control bounds follow the attachment by instrument tag.',
  'extraction':'Original Sheet1 rows 4:328. Product RON column K; sulfur J. Four fixed features C,D,E,I.'},ensure_ascii=False,indent=2),encoding='utf-8')
  print('Extracted 325 complete rows, 4 fixed features, 23 controls, 2 targets.')
 
